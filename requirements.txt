@@ -1,0 +1,11 @@
+numpy>=1.25
+scipy>=1.11
+torch>=2.2
+torchaudio>=2.2
+pandas>=2.1
+tqdm>=4.66
+pydantic>=2.6
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.33
+python-multipart>=0.0.9

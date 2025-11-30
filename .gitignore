@@ -1,0 +1,22 @@
+# Python / build
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+env/
+venv/
+
+# Data artifacts
+data/raw/
+data/processed/
+data/features/
+
+# Models and checkpoints
+checkpoints/
+models/
+
+# Streamlit / FastAPI state
+.streamlit/
+.env
