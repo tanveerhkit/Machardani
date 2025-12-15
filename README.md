@@ -153,3 +153,7 @@ Future versions can attach severity scales or probability distributions to each 
   python scripts/run_streamlit.py --checkpoint checkpoints/humbugdb_baseline/best_model.pt --port 8501
    ```
 2. Open `http://localhost:8501`, upload audio, and view predictions alongside prevention guidance.
+3. The UI now requires the recording location; it offers open-data autocomplete suggestions (powered by OpenStreetMap), a “Use My Location” shortcut, geocodes the area, overlays a mosquito-risk heat map, and lists nearby emergency hospitals plus civic helplines—no API key required. Launch Streamlit as usual:
+   ```bash
+   python scripts/run_streamlit.py --checkpoint checkpoints/humbugdb_baseline/best_model.pt
+   ```
